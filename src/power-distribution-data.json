@@ -1,0 +1,10 @@
+[ {
+  "kind": "Crypto/Stocks", "share": 0.33
+}, {
+  "kind": "TV shows", "share": 0.15
+}, {
+  "kind": "Video Games", "share": 0.33
+},
+ {
+  "kind": "Sports", "share": 0.225
+} ]
