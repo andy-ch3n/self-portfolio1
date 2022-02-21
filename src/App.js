@@ -15,10 +15,10 @@ import Fade from "react-reveal/Fade";
 
 function App() {
   return (
-    <div id="zero" className="flex flex-col">
+    <div id="zero">
       <SideBar />
-      <div className="h-full ml-16 px-20 min-h-screen items-center justify-center">
-        <div className="">
+      <div className="flex flex-col h-full ml-16 px-20 min-h-screen items-center justify-center">
+        <div className="flex flex-col md:flex-row">
           <About/>
         </div>
        </div>

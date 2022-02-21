@@ -12,8 +12,8 @@ export default function Interests() {
       <div class="container mx-auto">
         <div class="grid grid-cols-2 mx-56 px-8 py-6">
           <div class="space-y-3 py-2">
-            <h1 class="flex text-primary text-2xl pb-8">Coding Interests and Experiences</h1>
-            <div class="relative w-full sm:w-full bg-gray-200 rounded">
+            <h1 class="flex flex-col lg:flex text-primary text-2xl pb-8">Coding Interests and Experiences</h1>
+            <div class="w-full md:w-1/2 bg-gray-200 rounded">
               <div class="absolute top-0 h-7 rounded shim-darkblue w-6/6 flex justify-center">
                 Learning new things
               </div>

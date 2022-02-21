@@ -42,11 +42,11 @@ export default function Projects() {
           plugins={plugins}
           viewportTag="div"
           cameraTag="div"
-          align="center"
+          align="prev"
           onMove={(e: MoveEvent) => {}}
           onWillChange={(e: WillChangeEvent) => {}}
           horizontal={true}
-          circular={false}
+          circular={true}
         >
           {/* https://naver.github.io/egjs-flicking/Plugins/ */}
 

@@ -4,18 +4,17 @@ import Interests from "./Interests.js";
 export default function AboutBio() {
   return (
     <div class="container mx-auto">
-      <div class="mb-16 pb-12 mx-16">
+      <div class="mb-16 pb-12 md:x-16">
         <h1 class="flex justify-center mb-12 text-5xl text-primary py-4">
           About Me
         </h1>
         <p class="text-xl mx-56 mb-8 flex justify-center text-primary">
           In 2021, I made the career switch from a market analyst role to a
-          software developer. The ability to build technology to make my life /
+          software developer. The ability to build technology to make
           lives around me easier and faster appealed to me. Making this switch
           also meant the flexibility to be in many industries and be open to
-          many different types of tech roles. Additionally, becoming a software
-          developer meant I could now easily capitalize on different side-hustle
-          ideas.
+          many different types of tech roles. Becoming a software engineer has helped me understand how
+          websites and applications operate and has inspired me to build useful and scalable technology.
         </p>
         <Interests />
         <br />
