@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 export default function About() {
   return (
     <>
-      <div className="md:ml-20 md:mr-28 xl:mx-56 lg:ml-20 lg:mr-28 grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
+      <div className="md:ml-20 md:mr-28 xl:mx-52 grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
         <img
           class="md:w-96 w-64 pt-6 md:pt-0 "
           src={Selfie}
