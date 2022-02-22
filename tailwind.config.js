@@ -4,6 +4,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      'sm': '480px',
+      'md': '768px',
+      'lg': '976px',
+      'xl': '1440px',
+      '2xl': '1800px'
+    },
     container: {
       center: true,
     },
@@ -14,12 +21,6 @@ module.exports = {
       'custom-hex-color': '0 2px 4px 0 #af9cdd',
     },
     extend: {
-      screens: {
-        sm: '480px',
-        md: '768px',
-        lg: '976px',
-        xl: '1440px',
-      },
       colors: {
         primary: '#000D40',
         secondary: '#E2F0F8',

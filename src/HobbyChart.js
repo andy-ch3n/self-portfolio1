@@ -35,7 +35,6 @@ export default function HobbyChart() {
         </ChartSeries>
         <ChartLegend visible={false} />
       </Chart>
-      ;
     </div>
   );
 }
