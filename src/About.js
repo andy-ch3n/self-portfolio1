@@ -57,5 +57,3 @@ export default function About() {
     </>
   );
 }
-
-//        class="h-10 w-10 ml-64 mt-6 flex items-center justify-center hover:fill-current hover:text-white cursor-pointer"
