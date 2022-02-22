@@ -1,12 +1,18 @@
 import React from "react";
 import Selfie from "./Assets/selfie.jpeg";
 import Typewriter from "typewriter-effect";
+import Img from "react-cool-img";
 
 export default function About() {
   return (
     <>
       <div class="md:ml-20 md:mr-28 grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
-        <img class="md:w-96 w-64 pt-6 md:pt-0 " src={Selfie} alt="selfie" />
+        <Img
+          style={{ backgroundColor: "white", width: "480", height: "320" }}
+          class="md:w-96 w-64 pt-6 md:pt-0 "
+          src={Selfie}
+          alt="selfie"
+        />
         <div class="text-color-white text-5xl md:text-7xl">
           <Typewriter
             onInit={(typewriter) => {
@@ -21,12 +27,12 @@ export default function About() {
                 .typeString("Hi I'm Andy.");
             }}
           />
-            <p class="font-mono md:mt-20 md:py-0 py-2 text-xl md:text-2xl text-black">
+          <p class="font-mono md:mt-20 md:py-0 py-2 text-xl md:text-2xl text-black">
             Welcome to my portfolio page! I am an aspiring Web developer. Here
             you can find the projects I've worked on in the past as well as
             projects I am currently working on.
           </p>
-          <br/>
+          <br />
           <p class="md:block hidden font-mono text-2xl text-primary">
             Click on the arrow below to learn more!
             <a href="#first">
@@ -46,8 +52,8 @@ export default function About() {
               </svg>
             </a>
           </p>
-          </div>
-          {/* <div class="md:py-0 py-4 text-color-white text-5xl md:text-7xl">
+        </div>
+        {/* <div class="md:py-0 py-4 text-color-white text-5xl md:text-7xl">
             Hi I'm Andy.
           <br />
           <p class="font-mono md:py-0 py-2 text-xl md:text-2xl text-black">
@@ -56,7 +62,7 @@ export default function About() {
             projects I am currently working on.
           </p>
         </div> */}
-        </div>
+      </div>
     </>
   );
 }

@@ -11,9 +11,11 @@ import {
   FaSchool,
   FaPersonBooth,
   FaProjectDiagram,
+  FaFile,
 } from "react-icons/fa";
 import React from 'react'
 import "./Assets/App.css";
+import Resume from "./Assets/andy_resume.pdf"
 
 const SideBar = () => {
   return (
@@ -47,6 +49,9 @@ const SideBar = () => {
           target="_blank"
         >
           <SideBarIcon8 icon={<FaInbox size="32" />} />
+          <a href={Resume} download="andy_resume.pdf">
+          <SideBarIcon2 icon={<FaFile size="32" />} />
+          </a>
         </a>
       </div>
     </div>
@@ -67,7 +72,7 @@ const SideBarIcon1 = ({ icon, text = "About Me" }) => (
   </div>
 );
 
-const SideBarIcon2 = ({ icon, text = "AnimeApes" }) => (
+const SideBarIcon2 = ({ icon, text = "Click to download Resume" }) => (
   <div className="sidebar-icon group">
     {icon}
     <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
