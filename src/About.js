@@ -25,7 +25,7 @@ export default function About() {
                 .typeString("Hi I'm Andy.");
             }}
           />
-          <p className="font-mono md:mt-20 md:py-0 py-2 text-xl md:text-2xl text-black">
+          <p className="font-mono md:mt-20 md:py-0 py-2 text-xl md:text-2xl text-black font-normal">
             Welcome to my portfolio page! I am an aspiring Web developer. Here
             you can find the projects I have worked on in the past as well as
             projects I am currently working on.
