@@ -74,12 +74,6 @@ const SideBarIcon2 = ({ icon, text = "Click to download Resume" }) => (
   </div>
 );
 
-const SideBarIcon3 = ({ icon, text = "Jobify" }) => (
-  <div className="sidebar-icon group">
-    {icon}
-    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
-  </div>
-);
 
 const SideBarIcon4 = ({ icon, text = "Projects" }) => (
   <div className="sidebar-icon group">
