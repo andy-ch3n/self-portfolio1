@@ -53,15 +53,6 @@ export default function About() {
             </a>
           </p>
         </div>
-        {/* <div class="md:py-0 py-4 text-color-white text-5xl md:text-7xl">
-            Hi I'm Andy.
-          <br />
-          <p class="font-mono md:py-0 py-2 text-xl md:text-2xl text-black">
-            Welcome to my portfolio page! I am an aspiring Web developer. Here
-            you can find the projects I've worked on in the past as well as
-            projects I am currently working on.
-          </p>
-        </div> */}
       </div>
     </>
   );
