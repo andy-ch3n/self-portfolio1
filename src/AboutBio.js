@@ -5,7 +5,7 @@ export default function AboutBio() {
   return (
     <div className="container mx-auto">
       <div className="mb-16 pb-12 pr-16 md:pr-0 md:x-16">
-        <h1 className="flex justify-center mb-12 text-5xl text-primary py-4 gradient-text">
+        <h1 className="flex justify-center mb-12 text-5xl text-primary py-4">
           About Me
         </h1>
         <p className="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center text-primary">

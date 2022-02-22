@@ -1,14 +1,12 @@
 import React from "react";
 import Selfie from "./Assets/selfie.jpeg";
 import Typewriter from "typewriter-effect";
-import Img from "react-cool-img";
 
 export default function About() {
   return (
     <>
-      <div className="md:ml-20 md:mr-28 grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
-        <Img
-          style={{ backgroundColor: "white", width: "480", height: "320" }}
+      <div className="md:ml-20 md:mr-28 xl:mx-56 lg:ml-20 lg:mr-28 grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
+        <img
           class="md:w-96 w-64 pt-6 md:pt-0 "
           src={Selfie}
           alt="selfie"
@@ -33,12 +31,12 @@ export default function About() {
             projects I am currently working on.
           </p>
           <br />
-          <p className="md:block hidden font-mono text-2xl text-primary">
+          <p className="md:block hidden font-mono text-2xl text-black">
             Click on the arrow below to learn more!
             <a href="#first">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10 ml-16 md:ml-52 md:mt-0 mt-6 flex items-center justify-center hover:fill-none cursor-pointer md:flex-col"
+                className="h-10 w-10 ml-16 xl:ml-60 xl:mt-4 md:ml-52 md:mt-0 mt-6 flex items-center justify-center hover:fill-none cursor-pointer md:flex-col"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

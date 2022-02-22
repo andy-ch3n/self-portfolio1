@@ -10,7 +10,6 @@ import Flicking, {
   WillChangeEvent,
   ViewportSlot,
 } from "@egjs/react-flicking";
-import Img from "react-cool-img";
 import Mousefit from './Assets/Mousefit.png'
 import jobify from './Assets/jobify.gif'
 
@@ -46,11 +45,10 @@ export default function Projects() {
 
           <div class="max-w-sm rounded bg-secondary mt-8 pt-4 mb-2 pl-8 ml-6 overflow-hidden shadow-2xl outline outline-offset-2 outline-primary outline-1 ">
             <h1 class="text-4xl text-black py-4 text-center">Mousefit.gg</h1>
-            <Img
+            <img
               class="w-full pr-8 hover:scale-110 transition duration-300 ease-in-out overflow-hidden shadow-lg"
               src={Mousefit}
               alt="Mousefit.gg picture"
-              style={{ backgroundColor: "white", width: "480", height: "320" }}
 
             />
             <div class="px-6 py-4">
@@ -93,11 +91,10 @@ export default function Projects() {
 
           <div class="max-w-sm rounded bg-secondary mt-8 mb-2 pt-4 pl-8 ml-6 overflow-hidden shadow-2xl outline outline-offset-2 outline-primary outline-1 ">
             <h1 class="text-4xl text-black py-4 text-center">Anime Apes</h1>
-            <Img
+            <img
               class="w-full pr-8 hover:scale-110 transition duration-300 ease-in-out overflow-hidden shadow-lg"
               src={Anime}
               alt="Mousefit.gg picture"
-              style={{ backgroundColor: "white", width: "480", height: "320" }}
             />
             <div class="px-6 py-8">
               <p class="text-gray-700 text-base">
@@ -138,11 +135,10 @@ export default function Projects() {
             <h1 class="text-4xl text-black py-4 text-center hover:scale-110 transition duration-300 ease-in-out">
               Jobify
             </h1>
-            <Img
+            <img
               class="w-full pr-8 hover:scale-110 transition duration-300 ease-in-out"
               src={jobify}
               alt="jobify picture"
-              style={{ backgroundColor: "white", width: "480", height: "320" }}
             />
             <div class="px-6 py-4">
               <p class="text-gray-700 text-base">
@@ -183,11 +179,10 @@ export default function Projects() {
             <h1 class="text-4xl text-black py-4 text-center">
               Project Catwalk
             </h1>
-            <Img
+            <img
               class="w-full pr-8 hover:scale-110 transition duration-300 ease-in-out"
               src={Catwalk}
               alt="Project Catwalk walkthrough"
-              style={{ backgroundColor: "white", width: "480", height: "320" }}
 
             />
             <div class="px-6 py-4">
@@ -229,11 +224,10 @@ export default function Projects() {
 
           <div class="max-w-sm rounded bg-secondary mt-8 pt-4 mb-2 pl-8 ml-6 overflow-hidden shadow-2xl outline outline-offset-2 outline-primary outline-1 ">
             <h1 class="text-4xl text-black py-4 text-center">Imprint.gg</h1>
-            <Img
+            <img
               class="w-full pr-8 hover:scale-110 transition duration-300 ease-in-out"
               src={imprint}
               alt="Imprint.gg"
-              style={{ backgroundColor: "white", width: "480", height: "320" }}
             />
             <div class="px-6 py-4">
 
