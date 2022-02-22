@@ -5,7 +5,7 @@ export default function Footer() {
     <>
        <div className="flex justify-center text-primary">
         {" "}
-        © 2022 <b> &nbsp;Andy Chen</b>
+        <b> © 2022 Andy Chen</b>
       </div>
       <div className="flex justify-center text-primary">
         <b>

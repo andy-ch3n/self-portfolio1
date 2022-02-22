@@ -8,7 +8,7 @@ export default function AboutBio() {
         <h1 className="flex justify-center mb-12 text-5xl text-black py-4 font-bold">
           About Me
         </h1>
-        <p className="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center font-normal text-black">
+        <p className="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center font-medium text-black">
           In 2021, I made the career switch from a market analyst role to a
           software developer. The ability to build technology to make
           lives around me easier and faster appealed to me. Making this switch
