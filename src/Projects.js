@@ -27,7 +27,7 @@ export default function Projects() {
 
   return (
     <div class="container mx-auto">
-      <div class="mb-12 pt-2 flex items-center justify-center text-5xl text-black">
+      <div class="mb-12 pt-2 flex items-center justify-center text-5xl text-black font-bold">
         Projects
       </div>
       <div class="">

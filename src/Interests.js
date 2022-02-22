@@ -9,7 +9,7 @@ export default function Interests() {
       <div className="md:container md:mx-auto pl-40 md:pl-0">
         <div className="md:grid grid-cols-2 mx-56 px-8 py-6 ">
           <div className="space-y-3 py-2">
-            <h1 className="flex flex-col lg:flex text-primary text-2xl pb-8">Coding Interests and Experiences</h1>
+            <h1 className="flex flex-col lg:flex text-primary text-3xl pb-8 font-bold">Coding Interests and Experiences</h1>
             <div className="w-full  bg-gray-200 rounded">
               <div className="absolute top-0 h-7 rounded shim-darkblue w-6/6 flex justify-center">
                 Learning new things
@@ -59,7 +59,7 @@ export default function Interests() {
             </div>
           </div>
           <div className="rounded-lg overflow-hidden ">
-            <div className="flex justify-center text-3xl md:mt-0 mt-4 px-4 text-primary">
+            <div className="flex justify-center text-3xl md:mt-0 mt-4 px-4 text-primary font-bold">
               Hobbies{" "}
             </div>
            <HobbyChart/>
