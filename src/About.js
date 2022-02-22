@@ -5,8 +5,8 @@ import Typewriter from "typewriter-effect";
 export default function About() {
   return (
     <>
-      <div class="ml-10 mr-24 md:grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
-        <img class="md:w-96 w-48" src={Selfie} alt="selfie" />
+      <div class="md:ml-10 md:mr-24 grid md:grid-cols-2 md:grid-rows-1 rounded overflow-hidden shadow-lg">
+        <img class="md:w-96 w-64 pt-6 md:pt-0" src={Selfie} alt="selfie" />
         <div class="hidden md:block text-color-white text-5xl md:text-7xl">
           <Typewriter
             onInit={(typewriter) => {
@@ -22,18 +22,18 @@ export default function About() {
             }}
           />
           </div>
-          <div class="md:hidden text-color-white text-5xl md:text-7xl">
+          <div class="md:hidden md:py-0 py-4 text-color-white text-5xl md:text-7xl">
             Hi I'm Andy.
-            </div>
           <br />
-          <div class="max-w-sm rounded overflow-hidden shadow-lg"></div>
-          <p class="font-mono text-xl md:text-2xl  text-black">
+          <p class="font-mono md:py-0 py-2 text-xl md:text-2xl  text-black">
             Welcome to my portfolio page! I am an aspiring Web developer. Here
             you can find the projects I've worked on in the past as well as
             projects I am currently working on.
           </p>
+            </div>
+          <div class="max-w-sm rounded overflow-hidden shadow-lg">
           <br></br>
-          <p class="font-mono text-2xl text-primary">
+          <p class="md:block hidden font-mono text-2xl text-primary">
             Click on the arrow below to learn more!
             <a href="#first">
               <svg
@@ -52,6 +52,7 @@ export default function About() {
               </svg>
             </a>
           </p>
+        </div>
         </div>
     </>
   );

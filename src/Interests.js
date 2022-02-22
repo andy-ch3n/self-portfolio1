@@ -7,10 +7,8 @@ import HobbyChart from './HobbyChart.js'
 export default function Interests() {
   return (
     <div class="mt-8">
-
-
-      <div class="container mx-auto">
-        <div class="grid grid-cols-2 mx-56 px-8 py-6">
+      <div class="md:container md:mx-auto pl-40 md:pl-0">
+        <div class="md:grid grid-cols-2 mx-56 px-8 py-6 ">
           <div class="space-y-3 py-2">
             <h1 class="flex flex-col lg:flex text-primary text-2xl pb-8">Coding Interests and Experiences</h1>
             <div class="w-full md:w-1/2 bg-gray-200 rounded">
@@ -62,7 +60,7 @@ export default function Interests() {
             </div>
           </div>
           <div class="rounded-lg overflow-hidden ">
-            <div class="flex justify-center text-3xl py-0 px-4 text-primary">
+            <div class="flex justify-center text-3xl md:mt-0 mt-4 px-4 text-primary">
               Hobbies{" "}
             </div>
            <HobbyChart/>
