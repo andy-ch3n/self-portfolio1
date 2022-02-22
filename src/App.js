@@ -18,9 +18,7 @@ function App() {
     <div id="zero">
       <SideBar />
       <div className="flex flex-col h-full ml-16 md:px-20 min-h-screen items-center justify-center">
-        <div className="flex flex-col md:flex-row">
           <About/>
-        </div>
        </div>
         <section id="first">
         <Fade bottom>

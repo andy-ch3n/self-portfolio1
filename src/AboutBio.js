@@ -5,10 +5,10 @@ export default function AboutBio() {
   return (
     <div class="container mx-auto">
       <div class="mb-16 pb-12 pr-16 md:pr-0 md:x-16">
-        <h1 class="flex justify-center mb-12 text-5xl text-primary py-4">
+        <h1 class="flex justify-center mb-12 text-5xl text-primary py-4 gradient-text">
           About Me
         </h1>
-        <p class="text-lg md:text-xl pr-8 md:mx-56 mb-8 flex justify-center text-primary">
+        <p class="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center text-primary">
           In 2021, I made the career switch from a market analyst role to a
           software developer. The ability to build technology to make
           lives around me easier and faster appealed to me. Making this switch
@@ -16,7 +16,6 @@ export default function AboutBio() {
           many different types of tech roles. Becoming a software engineer has helped me understand how
           websites and applications operate and has inspired me to build useful and scalable technology.
         </p>
-
         <div class="flex justify-center pr-64 md:pr-0">
         <Interests />
         </div>

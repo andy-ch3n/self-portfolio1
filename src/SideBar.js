@@ -23,7 +23,7 @@ const SideBar = () => {
         <SideBarIcon icon={<FaUserCircle size="32" />} />
         </a>
         <div className="border-b-4 mb-2"></div>
-        <div className="mx-auto ml-0.5">Profile</div>
+        <div className="mx-auto md:ml-2">Profile</div>
         <a href="#first">
         <SideBarIcon1 icon={<FaPersonBooth size="32" />} />
         </a>
@@ -34,7 +34,7 @@ const SideBar = () => {
         <SideBarIcon4 icon={<FaProjectDiagram size="32" />} />
         </a>
         <div className="border-b-4 mb-2"></div>
-        <div className="mx-auto ml-0.5">Socials</div>
+        <div className="mx-auto ml-0.5 md:ml-2">Socials</div>
         <a rel="noreferrer" href="https://www.linkedin.com/in/andych3n/" target="_blank">
           <SideBarIcon6 icon={<FaLinkedin size="32" />} />
         </a>

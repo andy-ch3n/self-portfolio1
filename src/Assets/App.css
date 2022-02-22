@@ -371,3 +371,105 @@ h1 { margin: 0; }
   0%, 20% { transform: translateX(0); }
   50%, 70% { transform: translateX(337rem); }
 }
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #e7a52a;
+  font-size: 3rem;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #0b4bac 16.666%,
+    #11515c 16.666%,
+    #676767 33.333%,
+    rgb(100, 160, 209) 33.333%,
+    #203d68 50%,
+    #053861 50%,
+    #d9d9d900 66.666%,
+    #0e2755 66.666%,
+    #1b4474 83.333%,
+    #313131 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.gradient-name {
+  /* Fallback: Set a background color. */
+  background-color: #ca4246;
+  font-size: 25px;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #0076e4 16.666%,
+    #66c3ee 16.666%,
+    #ffffff 33.333%,
+    #003757 33.333%,
+    #008f94 50%,
+    #001a53 50%,
+    #b4b4b4 66.666%,
+    #aaddff 66.666%,
+    #0a58be 83.333%,
+    #65b0ee 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 10s ease forwards;
+}
+
+.gradient-name:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
