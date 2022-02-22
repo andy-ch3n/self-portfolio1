@@ -4,7 +4,6 @@ import About from "./About.js";
 import Projects from "./Projects.js";
 import React, { useRef } from 'react'
 import Interests from './Interests.js'
-// import Showcase from './Showcase.js'
 import AboutBio from './AboutBio.js'
 import Footer from './Footer.js'
 import Fade from "react-reveal/Fade";
