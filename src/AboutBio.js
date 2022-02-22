@@ -5,10 +5,10 @@ export default function AboutBio() {
   return (
     <div className="container mx-auto">
       <div className="mb-16 pb-12 pr-16 md:pr-0 md:x-16">
-        <h1 className="flex justify-center mb-12 text-5xl text-primary py-4 font-bold">
+        <h1 className="flex justify-center mb-12 text-5xl text-black py-4 font-bold">
           About Me
         </h1>
-        <p className="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center text-primary">
+        <p className="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center font-normal text-black">
           In 2021, I made the career switch from a market analyst role to a
           software developer. The ability to build technology to make
           lives around me easier and faster appealed to me. Making this switch
@@ -20,7 +20,7 @@ export default function AboutBio() {
         <Interests />
         </div>
         <br />
-        <h1 id="third" className="flex justify-center mb-12 text-5xl text-primary py-4 font-bold">
+        <h1 id="third" className="flex justify-center mb-12 text-5xl text-black py-4 font-bold">
           Education
         </h1>
         <div className="flex justify-center">
