@@ -17,7 +17,7 @@ function App() {
   return (
     <div id="zero">
       <SideBar />
-      <div className="flex flex-col h-full ml-16 px-20 min-h-screen items-center justify-center">
+      <div className="flex flex-col h-full ml-16 md:px-20 min-h-screen items-center justify-center">
         <div className="flex flex-col md:flex-row">
           <About/>
         </div>
@@ -32,13 +32,13 @@ function App() {
         <section id="second">
         <Fade>
 
-        <div className="m-h-screen ml-24 mt-8 mb-8">
+        <div className="m-h-screen md:ml-24 mt-8 mb-8">
           <Projects />
        </div>
        </Fade>
         </section>
         <section id="footer">
-        <div className="m-h-screen ml-24 mt-8 mb-8">
+        <div className="m-h-screen px-4 md:px-0 md:ml-24 mt-8 mb-8">
           <Footer />
        </div>
         </section>
