@@ -1,5 +1,4 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
 import {
   Chart,
   ChartLegend,
@@ -15,7 +14,6 @@ import '@progress/kendo-theme-default/dist/all.css';
 
 export default function HobbyChart() {
   const labelContent = (e) => e.category;
-//lol
   return (
     <div>
       <Chart>

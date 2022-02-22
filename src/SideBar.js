@@ -1,9 +1,4 @@
 import {
-  FaShoppingBag,
-  FaClipboardList,
-  FaBitcoin,
-  FaMouse,
-  FaGamepad,
   FaLinkedin,
   FaGithub,
   FaInbox,
@@ -49,10 +44,10 @@ const SideBar = () => {
           target="_blank"
         >
           <SideBarIcon8 icon={<FaInbox size="32" />} />
-          <a href={Resume} download="andy_resume.pdf">
+        </a>
+        <a href={Resume} download="andy_resume.pdf">
           <SideBarIcon2 icon={<FaFile size="32" />} />
           </a>
-        </a>
       </div>
     </div>
   );
@@ -61,49 +56,49 @@ const SideBar = () => {
 const SideBarIcon = ({ icon, text = "Profile" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon1 = ({ icon, text = "About Me" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon2 = ({ icon, text = "Click to download Resume" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon3 = ({ icon, text = "Jobify" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon4 = ({ icon, text = "Projects" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon5 = ({ icon, text = "Education" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon6 = ({ icon, text = "LinkedIn" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">
+    <span className="sidebar-tooltip group-hover:scale-100">
       {text}
     </span>
   </div>
@@ -112,14 +107,14 @@ const SideBarIcon6 = ({ icon, text = "LinkedIn" }) => (
 const SideBarIcon7 = ({ icon, text = "Github" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 
 const SideBarIcon8 = ({ icon, text = "Email" }) => (
   <div className="sidebar-icon group">
     {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
 );
 

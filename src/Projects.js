@@ -1,25 +1,18 @@
 import React from "react";
-import Flip from "react-reveal/Flip";
-import Mousefit from "./Assets/Mousefit.png";
 import Anime from "./Assets/animeapes.gif";
 import Catwalk from "./Assets/projectcatwalk.gif";
-import jobify from "./Assets/jobify.gif";
 import "@egjs/react-flicking/dist/flicking.css";
-import Imprintgif from "./Assets/imprintgg.gif";
 import imprint from "./Assets/imprint.png";
 import { Arrow } from "@egjs/flicking-plugins";
 import "@egjs/flicking-plugins/dist/arrow.css";
-import { AutoPlay } from "@egjs/flicking-plugins";
 import Flicking, {
   MoveEvent,
   WillChangeEvent,
   ViewportSlot,
 } from "@egjs/react-flicking";
-import Interests from './Interests.js'
-import AboutBio from './AboutBio.js'
-import Typist from 'react-typist';
-import FaGithub from "react-icons/fa";
 import Img from "react-cool-img";
+import Mousefit from './Assets/Mousefit.png'
+import jobify from './Assets/jobify.gif'
 
 
 
