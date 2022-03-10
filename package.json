@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "craco start && postcss src/assets/App.css -o src/assets/app.css",
-    "build": "craco build",
+    "build": "GENERATE_SOURCEMAP=false craco build",
     "lint": "eslint ./src --fix",
     "test": "craco test",
     "eject": "craco eject"
