@@ -52,7 +52,7 @@ export default function Projects() {
 
             />
             <div class="px-6 py-4">
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-900 text-base">
               Liquid Hackathon 2 submission. Third place overall. Project designed to help users find their 'perfect' gaming mouse by having users take a 'survey' and then filtering their survey answers conditionally in a database
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function Projects() {
               alt="Mousefit.gg picture"
             />
             <div class="px-6 py-8">
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-900 text-base">
                 Decentralized application that incorporated solidity and Web3. Website that allowed users to connect Metamask wallet and buy NFT's.
               </p>
             </div>
@@ -141,7 +141,7 @@ export default function Projects() {
               alt="jobify picture"
             />
             <div class="px-6 py-4">
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-900 text-base">
               Jobify is an open-source job search portal for employers/job seekers of all industries and backgrounds. Project timeline was one week.
               </p>
               <div class="justify-center flex">
@@ -186,7 +186,7 @@ export default function Projects() {
 
             />
             <div class="px-6 py-4">
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-900 text-base">
               Project Catwalk is a MVP retail e-commerce client for browsing catalog products
               with a modern customer experience. This frontend project is built to serve product
               records from an external API.
@@ -231,7 +231,7 @@ export default function Projects() {
             />
             <div class="px-6 py-4">
 
-              <p class="text-gray-700 text-base">
+              <p class="text-gray-900 text-base">
                 Imprint.GG was a MVP demo done in 24 hours. This website pulled Apex Legends user data from the tracker.gg database
                 and gave users a comprehensive dashboard on their stats.
               </p>

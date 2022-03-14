@@ -10,11 +10,11 @@ export default function AboutBio() {
         </h1>
         <p className="text-lg md:text-xl pr-8 md:mx-72 mb-8 flex justify-center font-medium text-black">
           In 2021, I made the career switch from a market analyst role to a
-          software developer. The ability to build technology to make
-          lives around me easier and faster appealed to me. Making this switch
-          also meant the flexibility to be in many industries and be open to
-          many different types of tech roles. Becoming a software engineer has helped me understand how
+          software developer. The ability to build technology and make lives around me easier appealed to me, and after coding my first project I knew I had to make the switch. More importantly, my path to becoming a software engineer has taught me that
+          there is always something new to learn, and always new technologies to keep up with. I enjoy being able to have a skill set that is desired in almost every industry and
+          to have the potential to morph into the many different types of tech roles. Becoming a software engineer has helped me understand how
           websites and applications operate and has inspired me to build useful and scalable technology.
+
         </p>
         <div className="flex justify-center pr-64 md:pr-0">
         <Interests />
