@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 import React from 'react'
 import "./Assets/App.css";
-import Resume from "./Assets/andy_resume.pdf"
+import Resume from "./Assets/andy_resume1.pdf"
 
 const SideBar = () => {
   return (
@@ -45,7 +45,7 @@ const SideBar = () => {
         >
           <SideBarIcon8 icon={<FaInbox size="32" />} />
         </a>
-        <a href={Resume} download="andy_resume.pdf">
+        <a href={Resume} download="andy_resume1.pdf">
           <SideBarIcon2 icon={<FaFile size="32" />} />
           </a>
       </div>
