@@ -262,7 +262,7 @@ export default function Projects() {
               </span>
               </div>
               <div class="flex mt-4 justify-center">
-                <a href="https://github.com/fec-bareminimum/project-catwalk#readme" target="_blank" rel="noreferrer">
+                <a href="https://github.com/andy-ch3n/Imprint.GG-MVP" target="_blank" rel="noreferrer">
               <button class="text-primary text-2xl">Github</button>
               </a>
             </div>
