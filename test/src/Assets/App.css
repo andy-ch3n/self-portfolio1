@@ -1,0 +1,475 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html {
+	height: 100%;
+	/* max-height: 600px; */
+	width: 100%;
+	background-color: rgba(76, 144, 179, 0.4);
+	background-image:
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png');
+	background-repeat: repeat-x;
+	background-position:
+		0 20%,
+		0 100%;
+	background-size:
+		1800px,
+		100vh;
+	animation: 50s para infinite linear;
+  opacity: 0.95;
+  color: rgb(255, 255, 255);
+  font-family: 'Barlow', sans-serif;
+  scroll-behavior:smooth;
+
+}
+
+	body {
+    font-family: 'Barlow', sans-serif;
+  }
+
+
+@keyframes para {
+	100% {
+		background-position:
+			-5000px 20%,
+			-800px 100%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+
+
+p {
+  font-family: 'Barlow', sans-serif;
+}
+
+#first {
+	background-color:rgba(255, 255, 255, 0.342) !important;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e111, #67a4dd);
+  background-repeat: repeat-x;
+}
+
+#second {
+	background-color:rgba(255, 255, 255, 0.342) !important;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e111, #67a4dd);
+  background-repeat: repeat-x;
+}
+
+
+#footer {
+	background-color:rgba(255, 255, 255, 0.342) !important;
+	background: linear-gradient(0.25turn, #3f87a6, #ebf8e111, #67a4dd);
+  background-repeat: repeat-x;
+}
+
+section {
+  overflow-y: scroll;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+	transition: width 2s, height 4s;
+}
+
+div {
+	transition: width 2s, height 4s;
+}
+
+.shim-green {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(3, 209, 3, 0.7);
+}
+.shim-green::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+.shim-blue {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 155, 255, 0.7);
+}
+.shim-blue::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+.shim-purple {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(86, 29, 245, 0.7);
+}
+.shim-purple::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+.shim-red {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+.shim-red::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+.shim-orange {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 196, 0, 0.7);
+}
+.shim-orange::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+.shim-darkOrange {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(250, 133, 0, 0.767);
+}
+.shim-darkOrange::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+
+
+.shim-yellow {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(197, 153, 7);
+}
+.shim-yellow::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+
+.shim-darkblue {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+.shim-darkblue::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 1) 0,
+    rgba(233, 233, 233, 0.9) 50%,
+    rgba(233, 233, 233, 0.8) 100%
+  );
+  left: 0;
+  transform: translateX(-100%);
+  animation: shimmer 10s ease-out infinite;
+  content: "";
+}
+
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(0%);
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg);
+  }
+}
+
+.projects:before,
+.projects:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+.projects:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop{
+  2%,64%{
+    transform: translate(2px,-2px);
+  }
+  4%,60%{
+    transform: translate(-2px,2px);
+  }
+  62%{
+    transform: translate(13px,-1px) skew(-13deg);
+  }
+}
+
+.projects:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBotom{
+  2%,64%{
+    transform: translate(-2px,0);
+  }
+  4%,60%{
+    transform: translate(-2px,0);
+  }
+  62%{
+    transform: translate(-22px,5px) skew(21deg);
+  }
+}
+
+svg {
+  filter: drop-shadow(3px 2px 2px rgb(0 0 0 / 0.4));
+}
+
+main {
+  position: relative;
+  display: flex;
+}
+
+h1 { margin: 0; }
+.marker, .r, .e1, .s1, .s2, .e2 {
+  animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  will-change: transform;
+}
+
+.marker {
+  position: absolute; top: 4rem; left: 0rem;
+  height: 3rem; width: 40rem;
+  background-color: black;
+  animation-name: marker;
+}
+
+.r { margin-left: 1rem;   animation-name: r; }
+.e1 { margin-left: 7rem; animation-name: e1; }
+.s1 { margin-left: 16rem; animation-name: s1; }
+.s2 { margin-left: 21rem; animation-name: s2; }
+.e2 { margin: 0 36rem 0 42rem; animation-name: e2; }
+
+@keyframes r {
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(35rem); }
+}
+@keyframes e1 {
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(75rem); }
+}
+@keyframes s1 {
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(81rem); }
+}
+@keyframes s2 {
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(71rem); }
+}
+@keyframes e2 {
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(34rem); }
+}
+@keyframes marker {
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(337rem); }
+}
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #e7a52a;
+  font-size: 3rem;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #0b4bac 16.666%,
+    #11515c 16.666%,
+    #676767 33.333%,
+    rgb(100, 160, 209) 33.333%,
+    #203d68 50%,
+    #053861 50%,
+    #d9d9d900 66.666%,
+    #0e2755 66.666%,
+    #1b4474 83.333%,
+    #313131 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.gradient-text:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.gradient-name {
+  /* Fallback: Set a background color. */
+  background-color: #ca4246;
+  font-size: 25px;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #0076e4 16.666%,
+    #66c3ee 16.666%,
+    #ffffff 33.333%,
+    #003757 33.333%,
+    #008f94 50%,
+    #001a53 50%,
+    #b4b4b4 66.666%,
+    #aaddff 66.666%,
+    #0a58be 83.333%,
+    #65b0ee 83.333%
+  );
+
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-simple-animation-rev 10s ease forwards;
+}
+
+.gradient-name:hover {
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+    background-size: 650%;
+  }
+  40% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+
+/* Move the background and make it larger. */
+/* Animation shown when hovering over the text. */
+@keyframes rainbow-text-simple-animation {
+  0% {
+    background-size: 100%;
+  }
+  80% {
+    background-size: 650%;
+  }
+  100% {
+    background-size: 650%;
+  }
+}
